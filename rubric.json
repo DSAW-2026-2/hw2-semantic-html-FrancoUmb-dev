@@ -1,0 +1,30 @@
+{
+  "name": "HW02 — HTML Semántico",
+  "homeworkNumber": 2,
+  "structure": {
+    "maxPoints": 20,
+    "requiredFiles": [
+      { "path": "index.html", "description": "Landing page del proyecto con HTML semántico", "points": 15 }
+    ],
+    "requiredFolders": []
+  },
+  "quality": {
+    "maxPoints": 20,
+    "checks": ["htmlhint"]
+  },
+  "deployment": {
+    "maxPoints": 20,
+    "type": "github-pages"
+  },
+  "acceptance": {
+    "maxPoints": 40,
+    "sourcePaths": ["index.html"],
+    "criteria": [
+      "The page uses semantic HTML5 tags correctly: header, nav, main, section, article, and footer are present and used appropriately (not just divs)",
+      "A heading hierarchy is correctly established: there is exactly one h1, with h2 and h3 used for subsections",
+      "At least one HTML form is present with proper label elements associated to each input via 'for' and 'id' attributes",
+      "All images have descriptive alt attributes (not empty, not 'image')",
+      "The page has no CSS styling — this is intentional; the HTML structure should be clean and readable without it"
+    ]
+  }
+}
