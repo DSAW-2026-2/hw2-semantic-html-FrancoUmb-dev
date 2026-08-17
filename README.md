@@ -2,6 +2,35 @@
 
 https://dsaw-2026-2.github.io/hw2-semantic-html-FrancoUmb-dev/
 
+## Registro de uso de IA
+
+**Prompt utilizado:** le pedí a Claude que convirtiera el contenido de
+HW01 en HTML semántico puro (header, nav, main, section, article,
+footer), sin CSS ni JavaScript, con jerarquía de encabezados correcta.
+
+**Qué cambió:** el primer esqueleto usaba ids en español
+(`id="problema"`, `id="solucion"`). Los corregí a inglés
+(`id="problem"`, `id="solution"`, `id="target-users"`) para cumplir la
+convención del curso: código en inglés, texto en español.
+
+**Error real y cómo lo resolví:** clonamos por error el repositorio
+plantilla de solo lectura, no el repositorio personal que crea GitHub
+Classroom. El push falló con error 403. Lo resolví apuntando el
+repositorio local al correcto con `git remote set-url origin <url>` y
+luego `git push origin main --force`.
+
+**Diferencia entre el syllabus general y el rubric.json real:** el
+rubric.json de este repo específico pedía un formulario con `label
+for=` conectado al `id` de cada input, y una imagen con `alt`
+descriptivo — ninguno estaba en la descripción general de la tarea. Los
+agregué después de comparar directamente contra ese archivo.
+
+**Parte que no entendí de inmediato:** por qué GitHub Pages seguía
+mostrando una versión vieja después de varios push exitosos. La causa
+real (confirmada revisando Actions) era que un cambio de `index.html`
+nunca se había llegado a confirmar con `git commit` — `git status`
+mostraba "modified: index.html" pendiente todo ese tiempo.
+
 # HW02 — Semantic HTML
 
 **Week 2 · DSAW · Universidad de La Sabana**
