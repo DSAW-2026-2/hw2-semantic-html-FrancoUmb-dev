@@ -1,3 +1,7 @@
+## Sitio publicado
+
+https://dsaw-2026-2.github.io/hw2-semantic-html-FrancoUmb-dev/
+
 # HW02 — Semantic HTML
 
 **Week 2 · DSAW · Universidad de La Sabana**
