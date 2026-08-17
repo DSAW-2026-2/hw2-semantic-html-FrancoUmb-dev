@@ -6,11 +6,11 @@
 </head>
 <body>
   <header>
+    <img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMjAgMTIwIj48cmVjdCB3aWR0aD0iMTIwIiBoZWlnaHQ9IjEyMCIgcng9IjE2IiBmaWxsPSIjMUUyMjJGIi8+PHRleHQgeD0iNjAiIHk9IjcyIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iNDAiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjRkZGRkZGIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5DTjwvdGV4dD48L3N2Zz4=" alt="Logotipo de ConectaNegocio, iniciales CN en un cuadro oscuro" width="60" height="60">
     <h1>ConectaNegocio</h1>
     <nav>
       <ul>
         <li><a href="index.html">Inicio</a></li>
-        <li><a href="about.html">Sobre el equipo</a></li>
       </ul>
     </nav>
   </header>
@@ -46,6 +46,21 @@
     <section id="target-users" aria-labelledby="users-heading">
       <h2 id="users-heading">¿Para quién es?</h2>
       <p>Comerciantes que administran pequeños negocios, como una papelería de barrio, y proveedores que los abastecen de productos.</p>
+    </section>
+
+    <section id="request-access" aria-labelledby="request-heading">
+      <h2 id="request-heading">Solicita acceso</h2>
+      <form>
+        <p>
+          <label for="name">Nombre</label><br>
+          <input type="text" id="name" name="name" required>
+        </p>
+        <p>
+          <label for="email">Correo electrónico</label><br>
+          <input type="email" id="email" name="email" required>
+        </p>
+        <button type="submit">Solicitar acceso</button>
+      </form>
     </section>
   </main>
 
